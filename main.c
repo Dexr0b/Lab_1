@@ -37,16 +37,14 @@ int main()
     averageGrade = (double)(Grade1 + Grade2 + Grade3 + Grade4 + Grade5)/3;
 
     system("cls");
-    printf("\n***************");
-    printf("\n===============");
     printf("\n%s", University);
     printf("\n%s", Faculty);
     printf("\n%s", GroupName);
-    printf("\n---------------------------");
+    printf("\n****************************");
     printf("\nstudent: %s %s", Name, LastName );
     printf("\nage: %u", age);
     printf("\nsemestr: %u", semestr);
-    printf("\n---------------------------");
+    printf("\n============================");
     printf("\nadmission score: %.1f", admissionScore);
     printf("\naverage grade = %.2lf", averageGrade);
     printf("\n");
